@@ -174,8 +174,7 @@ El uso de Git Flow permite organizar el desarrollo del software mediante el uso 
 
 - Trabajar en la rama `develop`, ya existente desde la configuración de Git Flow.
 - Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
-- Realizar los cambios necesarios en este archivo `README.md` para responder esta pregunta.
-- Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
+- Realizar los cambios necesarios en este archivo `README.md` para responder esta pregunta.- Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
 - Crear un **pull request** desde `develop` hacia `main` en GitHub.
 - **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
 - **Aprobar** el pull request para que se haga el merge respectivo hacia `main`.
@@ -187,7 +186,6 @@ El uso de Git Flow permite organizar el desarrollo del software mediante el uso 
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
-
 
 ### ¿Qué es un Issue?
 
@@ -203,10 +201,24 @@ La principal diferencia es que el issue describe un problema o tarea, mientras q
 
 Ambos se relacionan en entornos colaborativos, ya que un pull request puede estar vinculado a un issue, permitiendo cerrar automáticamente el issue una vez que los cambios son aprobados e integrados.
 
+Evidencia de la creacion del ISSUE
+  ![ISSUE](imagenes/p7.png)
+### Procedimiento realizado
 
+Se creó un issue en GitHub con el título "Respuesta a la Pregunta 4", con el objetivo de documentar esta sección del examen.
 
+Posteriormente, se trabajó en la rama develop, donde se realizaron los cambios en el archivo README.md para responder la pregunta.
 
+Se realizó un commit con los cambios y se subieron al repositorio remoto.
 
+Luego, se creó un pull request desde la rama develop hacia main, vinculándolo con el issue mediante la palabra clave "Closes", permitiendo que el issue se cierre automáticamente al realizar el merge.
+
+Finalmente, el pull request fue aprobado y fusionado correctamente.
+
+### Evidencia
+
+Issue: https://github.com/Zzzheyla/comandos_basicos/issues/2#issue-4223200859
+Pull Request:https://github.com/Zzzheyla/practica1/pull/1#issue-4223343401
 
 
 ---
