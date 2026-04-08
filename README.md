@@ -338,8 +338,29 @@ Pull R: https://github.com/Zzzheyla/practica1/pull/1#issue-4223343401
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+### Procedimiento realizado
 
+Se crearon dos ramas, `ramaA` y `ramaB`, a partir de la rama `develop`.
+
+En la rama `ramaA` se creó un archivo llamado `archivoA.txt` con el contenido "Contenido A", mientras que en la rama `ramaB` se creó un archivo con el mismo nombre pero con el contenido "Contenido B".
+
+Posteriormente, se intentó fusionar la rama `ramaB` sobre `ramaA`, lo que generó un conflicto debido a que ambos archivos tenían modificaciones diferentes en la misma línea.
+
+El conflicto fue resuelto manualmente editando el archivo y combinando ambos contenidos.
+
+Luego, se realizó el merge de `ramaA` hacia `develop` y se creó un pull request desde `develop` hacia `main`.
+
+Finalmente, se eliminaron las ramas `ramaA` y `ramaB` tanto en el repositorio local como en el remoto.
+
+### ¿Qué es un conflicto en Git?
+
+Un conflicto en Git ocurre cuando dos ramas contienen cambios diferentes en la misma parte de un archivo, y Git no puede decidir automáticamente cuál versión conservar.
+
+En este caso, el conflicto ocurrió porque el archivo `archivoA.txt` fue modificado de forma diferente en ambas ramas.
+
+### Pull Request
+
+Enlace: https://github.com/TU_USUARIO/TU_REPO/pull/X
 ---
 
 ## Pregunta 6 (2 puntos)
