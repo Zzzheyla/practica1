@@ -3,10 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Anthony Israel Punina Chisag 
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original
-** ~] Respuesta:**
-**Fecha:** 07/10/2025
+**Nombre del Estudiante:** Sheyla Eliana Pacha Lucintuña 
+**Fecha:** 07/04/2026
 
 ---
 
