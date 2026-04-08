@@ -82,15 +82,22 @@ Finalmente, se verificó que el repositorio clonado correspondía al fork median
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
-La funcion del `.gitignore` es que excluye los archivos de ese tipo en los que hemos configurado por ejemplo los archivos que son .txt
 
-![FORK](img/Pregunta2/Prueba1.png)
+### Función del archivo .gitignore
 
-Como se puede ver los archivos dentro de la carpeta .doc y la carpeta doc no estan siendo rastreadas pero el archivo que tengo fuera de esa carpeta si lo esta siendo 
+El archivo `.gitignore` permite definir qué archivos o carpetas deben ser ignorados por Git, evitando que sean rastreados o incluidos en los commits.
 
-![FORK](img/Pregunta2/Prueba2.png)
+En este caso, se configuró para ignorar:
+- Archivos con extensión `.log`
+- La carpeta `temp/`
+- Archivos `.md` y `.txt` dentro de `doc/`
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Se realizó una prueba creando archivos dentro y fuera de las rutas indicadas, verificando mediante `git status` que los archivos configurados no son rastreados por Git.
+
+![gitignore](imagenes/p3.png)
+
+
+
 
 ---
 
