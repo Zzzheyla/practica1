@@ -287,6 +287,26 @@ Ambos se relacionan en entornos colaborativos, ya que un pull request puede esta
   ![ISSUE](imagenes/p7.png)
 
 
+### Procedimiento realizado
+
+Se creó un issue en GitHub con el título "Respuesta a la Pregunta 4", con el objetivo de documentar esta sección del examen.
+
+Posteriormente, se trabajó en la rama develop, donde se realizaron los cambios en el archivo README.md para responder la pregunta.
+
+Se realizó un commit con los cambios y se subieron al repositorio remoto.
+
+Luego, se creó un pull request desde la rama develop hacia main, vinculándolo con el issue mediante la palabra clave "Closes", permitiendo que el issue se cierre automáticamente al realizar el merge.
+
+Finalmente, el pull request fue aprobado y fusionado correctamente.
+
+### Evidencia
+
+Issue: https://github.com/Zzzheyla/comandos_basicos/issues/2#issue-4223200859
+Pull R: https://github.com/Zzzheyla/practica1/pull/1#issue-4223343401
+
+![ISSUE](imagenes/p7.png)
+
+
 ---
 
 ## Pregunta 5 (2 puntos)
