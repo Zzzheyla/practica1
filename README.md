@@ -58,8 +58,10 @@ El fork del repositorio se realizó mediante la opción "Fork" disponible en Git
 Posteriormente, se utilizó el comando `git clone` para descargar el repositorio fork a mi equipo local, permitiendo trabajar de manera independiente.
 
 Finalmente, se verificó que el repositorio clonado correspondía al fork mediante el comando `git remote -v`, confirmando que la URL remota pertenecía a mi cuenta de GitHub y no al repositorio original.
-![Pregunta 1](img/p1.png)
-![Pregunta 1](img/p2.png)
+
+![Fork](imagenes/p1.png)
+
+![Clone](imagenes/p2.png)
 
 
 
